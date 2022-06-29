@@ -1,0 +1,40 @@
+.container-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: #F25C29 !important;
+    border-color: #F25C29 !important;
+    width: 120px;
+    height: 40px;
+}
+
+.btn-outline-primary {
+    border-color: #F25C29 !important;
+    color: #F25C29 !important;
+    width: 140px;
+    height: 40px;
+}
+
+.buttonIcon{
+    margin-right: 10px;
+}
+
+.eliminar-filtros-button{
+    border-radius: 25px;
+}
+
+@media (max-width: 850px) {
+    .eliminar-filtros-button{
+        margin-top: 50px;
+    }
+    .container-buttons {
+        margin-top: 20px;
+        display: flex;
+        justify-content:space-between;
+        align-items: baseline;
+    }
+}

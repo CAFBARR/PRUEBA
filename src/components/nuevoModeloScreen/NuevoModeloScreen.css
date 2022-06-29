@@ -1,0 +1,45 @@
+.main{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.header-screen{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.aplicar-modelo {
+    border-color: #F25C29 !important;
+    color: #F25C29 !important;
+    width: 140px;
+    height: 40px;
+}
+
+h1{
+    font-size: 2em !important;
+
+}
+
+.nombre-modelo-row{
+    margin-top: 30px;
+    display: flex;
+}
+
+.nombre-modelo{
+    font-size: 1.5em !important;
+    margin-right: 20px;
+}
+
+@media (max-width: 850px) {
+    h1{
+        width: 250px;
+        word-break: break-all;
+        position: absolute;
+        left: 0;
+    }
+}
